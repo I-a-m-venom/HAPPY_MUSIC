@@ -23,9 +23,9 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-OWNER_ID = int(getenv("OWNER_ID", "2107529793"))
+OWNER_ID = int(getenv("OWNER_ID", "7237067290"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "Spy_Melodic_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "ROYAL_QUEEN_MUSIC_BOT")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LOVE_FEELINGS_WILL1")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/LOVE_FEELINGS_WILL1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FEELING_SMILEY")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/FRIENSHIP_CLUB_GROUP")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
