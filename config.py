@@ -86,12 +86,12 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/m9vjlg.jpg"
+    "START_IMG_URL", "https://graph.org/file/32d83143f85bf598cb2c2-7b94b2ffafac6119fd.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/f16f757fe9c10f81b67ef.jpg"
+    "PING_IMG_URL", "https://graph.org/file/5d108be9d6709d9532652-5810822fe56f2880b2.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/e68f585a0a2e4e5dc1164.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/3afbc6379011e06abfce1-15c3bbf2a75b642f65.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/4a7c28726502e24ea0fe0.jpg"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/810f874873e1565cf5732.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/16d7dd76f4ce8b8b01fdf.jpg"
