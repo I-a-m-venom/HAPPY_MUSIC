@@ -23,9 +23,9 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-OWNER_ID = int(getenv("OWNER_ID", "7237067290"))
+OWNER_ID = int(getenv("OWNER_ID", "7954204406"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "ROYAL_QUEEN_MUSIC_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "DIL_MUSIC_ROBOT")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -86,7 +86,7 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/32d83143f85bf598cb2c2-7b94b2ffafac6119fd.jpg"
+    "START_IMG_URL", "https://iili.io/2piMY4s.md.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/5d108be9d6709d9532652-5810822fe56f2880b2.jpg"
