@@ -21,11 +21,11 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002315394591"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002168126029"))
 
-OWNER_ID = int(getenv("OWNER_ID", "7954204406"))
+OWNER_ID = int(getenv("OWNER_ID", "6322403016"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "DIL_MUSIC_ROBOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Akriti_music_bot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FEELING_SMILEY")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/FRIENSHIP_CLUB_GROUP")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/akriti_love_feel")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Akriti_love_life")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
@@ -86,10 +86,10 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://iili.io/2piMY4s.md.jpg"
+    "START_IMG_URL", "https://iili.io/2ytsWdJ.md.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/5d108be9d6709d9532652-5810822fe56f2880b2.jpg"
+    "PING_IMG_URL", "https://iili.io/2ytsvqX.md.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/3afbc6379011e06abfce1-15c3bbf2a75b642f65.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/4a7c28726502e24ea0fe0.jpg"
